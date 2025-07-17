@@ -1,0 +1,118 @@
+body{
+	background:#E5B5FC;
+	margin: 0;
+}
+header{
+	background: #C91F1F;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+}
+header img{
+	width: 120px;
+	width: auto;
+	margin-right: 10px;
+}
+header h1 {
+	font-size: 20px;
+	margin: 0;
+	color: white;
+}
+
+footer{
+	background: #000000;
+	min-height: 180px;
+	color: #FFFFFF;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	background: #b03a2e;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	position: relative;
+}
+nav ul li a{
+	display: block;
+	padding: 15px 20px;
+	color: #FAFAFA;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: #BAB555;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #4444EB;
+	padding: 0;
+	list-style-type: none;
+}
+article{
+	width: 33%;
+	float: left;
+	margin: auto;
+	margin-top: -90px;
+}
+
+p{
+	color: #FFFFFF;
+}
+.redes{
+	float: right;
+	margin-top: 33px;
+	margin-right: 20px;
+	
+}
+.pagos{
+	float: left;
+	margin-left: 20px;
+	margin-top: -100px;
+	color: #ffffff;
+}
+.logo{
+	margin: 0 auto;
+	margin-left: 180px;
+}
+#pie{
+	width: 100%;
+	height: 120px;
+	background: #000000;
+	float: left;
+	text-align: center;	
+	color: #FFFFFF;
+}
+.pie-contenedor::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.redes img{
+	margin: 0 8px;
+}
+fieldset{
+	border: 6px dashed #5D27EE;
+	margin: auto;
+
+}
+
+.etiqueta{
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin: auto;
+	color: #000000;
+	
+}
+legend{
+	color: #000000;
+}
